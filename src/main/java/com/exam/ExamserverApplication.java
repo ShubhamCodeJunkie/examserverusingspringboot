@@ -36,7 +36,7 @@ public class ExamserverApplication implements CommandLineRunner {
 		User user = new User();
 		user.setFirstName("shubham");
 		user.setLastName("byadagi");
-		user.setUsername("shubham4");
+		user.setUsername("shubham");
 		user.setPassword(this.bCryptPasswordEncoder.encode("test"));
 		user.setEmail("abc@gmail.com");
 		user.setProfile("default.png");
